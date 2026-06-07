@@ -1,80 +1,116 @@
-# Real-World Evidence (RWE) Drug Effectiveness Study
+# 📊 Real-World Evidence (RWE) Drug Effectiveness Study
 
-## Project Overview
+## Overview
 
-This project evaluates the comparative effectiveness of diabetes medications using real-world hospital data from over 100,000 patient encounters across 130 US hospitals.
+This project evaluates the comparative effectiveness of Metformin and Insulin using real-world hospital patient data.
 
-The analysis compares Metformin and Insulin cohorts to assess:
-
-- Hospital readmission rates
-- Length of hospital stay
-- Medication burden
-- Clinical outcome trends
+Using healthcare analytics and statistical methods, I analyzed treatment cohorts to identify differences in readmission outcomes and healthcare utilization patterns.
 
 ---
 
-## Objective
+## Business Question
 
-To determine whether different diabetes treatment groups demonstrate variations in readmission outcomes and healthcare utilization.
+Can real-world hospital data be used to identify differences in patient outcomes between Metformin-treated and Insulin-treated cohorts?
 
 ---
 
 ## Dataset
 
-Dataset:
-Diabetes 130-US Hospitals for Years 1999–2008
+**Dataset:** Diabetes 130-US Hospitals for Years 1999–2008
 
-Source:
-UCI Machine Learning Repository / Kaggle
+**Source:** UCI Machine Learning Repository
+
+**Records:** 100,000+ patient encounters
+
+**Hospitals:** 130 US hospitals
 
 ---
 
-## Tools Used
+## Tools & Technologies
 
 - Python
-- pandas
-- matplotlib
+- Pandas
+- Matplotlib
 - SciPy
 - Jupyter Notebook
 - VS Code
+- Git & GitHub
 
 ---
 
-## Key Analyses
+## Project Workflow
 
-- Cohort creation
-- Data cleaning
-- Readmission analysis
-- Hospital stay comparison
-- Statistical testing
-- Data visualization
+### 1. Data Understanding
+- Reviewed patient encounter data
+- Explored medication variables
+- Investigated readmission outcomes
 
----
+### 2. Cohort Creation
+- Metformin cohort
+- Insulin cohort
 
-## Statistical Methods
+### 3. Outcome Analysis
+- Readmission rate comparison
+- Hospital stay analysis
+- Medication burden evaluation
 
-- Chi-square test
-- Independent t-test
+### 4. Statistical Testing
+- Chi-square Test
+- Independent T-Test
+
+### 5. Visualization
+- Readmission comparison chart
+- Hospital stay distribution boxplot
 
 ---
 
 ## Key Findings
 
-- Readmission distributions differed between medication cohorts.
-- Insulin-treated patients demonstrated longer average hospital stays.
-- Statistical testing suggested significant differences in healthcare outcomes between treatment groups.
+- Treatment cohorts demonstrated different readmission patterns.
+- Insulin-treated patients showed longer average hospital stays.
+- Statistical analysis suggested meaningful differences in healthcare utilization.
+- Real-world healthcare data can provide valuable evidence for treatment outcome evaluation.
 
 ---
 
-## Project Structure
+## Visualizations
 
-- data/ → raw dataset
-- notebooks/ → analysis notebook
-- visuals/ → generated charts
-- dashboard/ → future Power BI dashboards
+### Readmission Rate Comparison
+
+![Readmission Comparison](visuals/readmission_comparison.png)
+
+### Hospital Stay Distribution
+
+![Hospital Stay Boxplot](visuals/hospital_stay_boxplot.png)
+
+---
+
+## Repository Structure
+
+├── data/
+
+├── notebooks/
+
+├── visuals/
+
+└── README.md
+
+---
+
+## Skills Demonstrated
+
+- Healthcare Analytics
+- Real-World Evidence (RWE)
+- Cohort Analysis
+- Statistical Testing
+- Data Visualization
+- Clinical Data Interpretation
+- Python Programming
 
 ---
 
 ## Author
 
 Dharma Reddy Padala
+
+Healthcare Analytics | Clinical Data Analytics | Healthcare Informatics
